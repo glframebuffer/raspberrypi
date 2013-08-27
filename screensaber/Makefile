@@ -1,1 +1,2 @@
-gcc ../src/screensaber.c -o screensaber
+all:
+		gcc src/screensaber.c -o bin/screensaber

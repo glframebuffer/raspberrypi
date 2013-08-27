@@ -1,0 +1,1 @@
+gcc ../src/screensaber.c -o screensaber

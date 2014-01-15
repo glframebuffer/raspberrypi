@@ -68,6 +68,7 @@ int main()
 				if(HDMI_ON == 0)
 				{
 					system ("/opt/vc/bin/tvservice -p");
+					system ("sudo xrefresh");
 				}
 			HDMI_ON = 1;
 			

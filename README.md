@@ -3,6 +3,8 @@ Raspberrypi utilities and stub by glframebuffer [ http://glframebuffer.wordpress
 
 1) HDMI utility
    - switch off/on HDMI TV, monitor connected to RaspberryPI
+   - Requirement "x11-xserver-utils" 
+   - ~ sudo apt-get install x11-xserver-utils
    - HDMI TV switch on upon mouse movement.
    -  usage: 
    -  "~ $ ./screensaber &"
